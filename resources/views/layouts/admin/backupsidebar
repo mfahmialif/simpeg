@@ -1,0 +1,219 @@
+{{-- riwayat keluarga --}}
+<li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-users bkg-purple"> </i>
+        <p>
+            Riwayat Keluarga
+            <i class="right fas fa-angle-left"></i>
+        </p>
+    </a>
+    <ul class="nav nav-treeview">
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Suami / Istri</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Anak</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Orang Tua</p>
+            </a>
+        </li>
+    </ul>
+</li>
+{{-- Riwayat Pendidikan --}}
+<li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-graduation-cap bkg-green"></i>
+        <p>
+            Riwayat Pendidikan
+            <i class="right fas fa-angle-left"></i>
+        </p>
+    </a>
+    <ul class="nav nav-treeview">
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Sekolah</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Bahasa</p>
+            </a>
+        </li>
+    </ul>
+</li>
+{{-- Kepegawaian --}}
+<li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-briefcase bkg-blue-2"></i>
+        <p>
+            Kepegawaian
+            <i class="right fas fa-angle-left"></i>
+        </p>
+    </a>
+    <ul class="nav nav-treeview">
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Jabatan</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Pangkat</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Hukuman</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Diklat</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Penghargaan</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Penugasan</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Seminar</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Cuti</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Latihan Jabatan</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Tunjangan</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Izin Kawin</p>
+            </a>
+        </li>
+    </ul>
+</li>
+{{-- Mutasi --}}
+<li class="nav-item">
+    <a href="{{ route('home') }}" class="nav-link">
+        <i class="nav-icon fas fa-exchange-alt bkg-grey"></i>
+        <p>
+            Mutasi
+        </p>
+    </a>
+</li>
+{{-- SKP --}}
+<li class="nav-item">
+    <a href="{{ route('home') }}" class="nav-link">
+        <i class="nav-icon fas fa-layer-group bkg-yellow"></i>
+        <p>
+            SKP
+        </p>
+    </a>
+</li>
+{{-- Rekapitulasi --}}
+<li class="nav-item">
+    <a href="{{ route('home') }}" class="nav-link">
+        <i class="nav-icon fas fa-compress-arrows-alt bkg-blue-2"></i>
+        <p>
+            Rekapitulasi
+        </p>
+    </a>
+</li>
+{{-- Report --}}
+<li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-print bkg-grey"></i>
+        <p>
+            Report
+            <i class="right fas fa-angle-left"></i>
+        </p>
+    </a>
+    <ul class="nav nav-treeview">
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Nominatif</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>DUK</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Bezetting</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Keadaan Pegawai</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Pensiun</p>
+            </a>
+        </li>
+    </ul>
+</li>
+{{-- Report KGBi --}}
+<li class="nav-item">
+    <a href="{{ route('home') }}" class="nav-link">
+        <i class="nav-icon fas fa-file bkg-green"></i>
+        <p>
+            Report KGB
+        </p>
+    </a>
+</li>
+{{-- Backup Database --}}
+<li class="nav-item" style="border-bottom: 1px solid #4f5962">
+    <a href="{{ route('home') }}" class="nav-link">
+        <i class="nav-icon fas fa-database bkg-blue"></i>
+        <p>
+            Backup Database
+        </p>
+    </a>
+</li>
